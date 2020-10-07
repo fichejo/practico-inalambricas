@@ -15,5 +15,5 @@ variable "subnet" {
 }
 
 output "dns-publico" {
-  value = aws_instance.terraform-inalambricas-instance.public_dns
+  value = aws_instance.terraform_instalambricas_inst.public_dns
 }

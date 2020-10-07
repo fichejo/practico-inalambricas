@@ -1,9 +1,9 @@
-resource "aws_vpc" "inalambrica-vpc" {
+resource "aws_vpc" "inalambricas-vpc" {
   cidr_block           = var.CIDR
   enable_dns_support   = true
   enable_dns_hostnames = true
   tags = {
-    Name = "vpc_inalambricas"
+    Name = "vpc-inalambricas"
 
   }
 }
